@@ -16,3 +16,18 @@ export interface PropertyProps {
   image: string;
   discount: string;
 }
+// interfaces/index.ts
+export interface PropertyProps {
+  name: string;
+  rating: number;
+
+    city: string;
+    country: string;
+  };
+  interface Review {
+  name: string;
+  rating: number;
+  comment: string;
+  avatar: string;
+}
+
